@@ -1,0 +1,47 @@
+@import url('./_theme/_dark/_theme_dark.css');
+@import url('./__container/additional__container.css');
+@import url('./__item/additional__item.css');
+
+.additional .section__title {
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+.additional .section__subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 48px 0px 72px 0px;
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .additional .section__subtitle {
+        margin: 48px 0px 64px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .additional .section__title {
+        font-size: 42px;
+        line-height: 46px;  
+    }
+    .additional .section__subtitle {
+        margin: 24px 0px 56px 0px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .additional .section__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 64px;
+    }
+    .additional .section__subtitle {
+        margin: 16px 0px 48px 0px;
+    }
+}
+
+

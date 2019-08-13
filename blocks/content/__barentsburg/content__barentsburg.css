@@ -1,0 +1,120 @@
+@import url('./_theme/_dark/_theme_dark.css');
+
+.barentsburg {
+    width: 100%;
+    max-width: 1184px;
+    margin: 0px auto;
+}
+
+.barentsburg .section__title {
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 60px;
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+
+.barentsburg .section__subtitle {
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 60px;
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+
+.barentsburg .place {
+    margin: 85px 0px 0px;
+    justify-content: start;
+}
+
+.barentsburg .place_paragraphs {
+    margin: 0px 120px 0px 0px;
+    width: 380px;
+}
+
+.barentsburg .place_paragraphs>* {
+    margin: 0px;
+}
+
+.barentsburg .place__website {
+    order: 1;
+    width: 282px;
+    margin: 0px;
+    justify-content: flex-start;
+}
+
+.barentsburg__map {
+    margin: 48px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+    .barentsburg .section__title {
+        margin-left: 48px;
+    }
+    
+    .barentsburg .section__subtitle {
+        margin-left: 48px;
+    }
+
+    .barentsburg .place_paragraphs {
+        margin: 0px 90px 0px 50px;
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+    .barentsburg .section__title {
+        margin-left: 24px;
+    }
+    
+    .barentsburg .section__subtitle {
+        margin-left: 24px;
+        line-height: 61px;
+    }
+
+    .barentsburg .place_paragraphs {
+        margin: 0px 24px 0px 24px;
+        width: 405px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .barentsburg .section__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-left: 16px;
+    }
+    .barentsburg .section__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin-left: 16px;
+    }
+    .barentsburg__map {
+        margin: 16px 0px 24px 0px;
+    }
+
+    .barentsburg .place_paragraphs {
+        font-size: 18px;
+        line-height: 30px;
+        order: 2;
+        margin: 0px 0px 0px 16px;
+
+    }
+
+    .barentsburg .place__website {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 32px;
+        margin-left: 16px;
+    }
+
+} 

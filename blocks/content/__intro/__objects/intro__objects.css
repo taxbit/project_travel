@@ -1,0 +1,22 @@
+.intro__objects {
+    list-style: none;
+    margin: 35px 0px 0px;
+    padding: 0px;
+    width: 383px;
+}
+
+.intro__object {
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__object {
+        font-size: 12px;
+        line-height: 19px;
+    }   
+    .intro__objects {
+        width: calc(100vw - 32px);
+    }
+}

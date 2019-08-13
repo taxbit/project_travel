@@ -1,0 +1,139 @@
+
+.place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 72px 0px 0px;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+.place__image {
+    margin-top: 60px;
+}
+
+.place__website {
+    flex-direction: column;
+    display: flex;
+    margin: 0px 0px 0px 40px;
+    justify-content: flex-end;
+
+}
+
+.place__url-heading {
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+}
+
+.place__url {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place_paragraphs {
+    margin: 0px 0px 0px 40px;
+    max-width: 484px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.place__paragraph {
+    margin: 0px 0px 36px;
+    padding: 0px;
+}
+
+.place__paragraph:first-of-type {
+    margin: 60px 0px 36px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .place__image {
+        margin-top: 40px;
+        max-width: 440px;
+        max-height: 440px;
+    }
+
+    .place_paragraphs {
+        margin: 0px 0px 0px 32px;
+        max-width: 456px;        
+    }
+
+    .place__paragraph:first-of-type {
+        margin-top: 40px;
+    } 
+
+    .place__website {
+        margin: 0px 0px 0px 32px;
+    }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .place__image {
+        margin-top: 40px;
+        max-width: 340px;
+        max-height: 340px;
+    }   
+
+    .place_paragraphs {
+        margin: 0px 0px 0px 28px;
+        max-width: 352px;    
+        font-size: 16px;
+        line-height: 27px;    
+    }
+
+    .place__paragraph:first-of-type {
+        margin-top: 32px;
+    }   
+
+    .place__website {
+        margin: 0px 0px 0px 28px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .place__image {
+        width: 100%;
+        height: 100%;
+        margin-top: 32px;
+    }       
+
+    .place__website {
+        margin: 16px 0px 0px 16px;
+    }
+    .place_paragraphs {
+        max-width: calc(100vw - 32px);
+        margin: 0 auto;
+    }
+    
+    .place__paragraph:first-of-type {
+        margin-top: 24px;
+    }   
+
+    .place {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .place_paragraphs {
+        font-size: 18px;
+        line-height: 30px;
+    }    
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .place_paragraphs {
+        font-size: 16px;
+        line-height: 27px;
+    }    
+}

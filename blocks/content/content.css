@@ -1,0 +1,41 @@
+@import url('./_theme/_dark/_theme_dark.css');
+@import url('./__lead/content__lead.css');
+@import url('./__intro/content__intro.css');
+@import url('./__photo-grid/content__photo-grid.css');
+@import url('./__places/content__palces.css');
+@import url('./__additional/content__additional.css');
+@import url('./__comments/content__comments.css');
+@import url('./__video/content__video.css');
+@import url('./__cover/content__cover.css');
+@import url('./__emblem/content__emblem.css');
+@import url('./__barentsburg/content__barentsburg.css');
+
+
+.content {
+    /* max-width : 1440px; */
+    margin : 0 auto;
+}
+
+.section__title {
+    text-align: center;
+    margin: 102px auto 0px;
+    font-weight: 900;
+}
+
+.section__subtitle {
+    text-align: center;
+    margin: 42px auto 0px;
+    font-weight: 400;
+}
+
+.section__bold {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
